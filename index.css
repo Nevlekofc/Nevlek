@@ -1,36 +1,4 @@
-section {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-    section {
-            padding: 20px;
-            background-color: #101011;
-            margin: 10px;
-            border-radius: 5px;
-        } 
-        
-        h2 {
-          padding: 2px;
-          color: #fff;
-          margin: 1px;
-          text-shadow: 5px;
-        }
-        
-        h3 {
-          padding: 2px;
-          color: #f2f2f2;
-          margin: 1px;
-          text-shadow: 5px;
-        }
-
-  footer {
-            text-align: center;
-            padding: 1em 0;
-            background-color: blue;
-            color: #fff;
-            position: relative;
-            bottom: 0;
+ottom: 0;
           
             text-align: center;
         }
@@ -95,4 +63,122 @@ img {
 
 nevlekA {
   animation: nevlekteste 1.4s infinite;
+        }      .nevlekX {
+        text-align: center;
+      }
+
+    section {
+            padding: 20px;
+            background-color: #B4B4B4;
+            margin: 10px;
+            color: #111;
+            border-radius: 5px;
+            display: flex;
+  justify-content: center;
+  align-content: center;
+  border-color: #fff;
+        } 
+        
+        h2 {
+          padding: 2px;
+          color: #111;
+          margin: 1px;
+          text-shadow: 5px;
+        }
+        
+        h3 {
+          padding: 2px;
+          color: #ffff;
+          margin: 1px;
+          text-shadow: 5px;
+        }
+        .linear{
+                  display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background: #000;
+        padding: 1px 1px 1px;
+        }
+
+    h4{
+      padding: 1px;
+      color: #111;
+      text-shadow: 1px;
+    }
+  footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #111;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+          
+            text-align: center;
+        }
+        .navbar{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background: #111;
+        padding: 8px 8px;
+        }
+        p {
+          color: #b4b4b4;
+        }
+      .nevlekY {
+         text-align: center; 
+      }
+      .nevlekk {
+        display: flex;
+        align-items: center;
+      }
+          .nevlekA {
+         text-align: center;
+      }
+  
+      .nevlekX {
+        text-align: center;
+      }
+      
+      body {
+background-color: #A4A4A4;
+  color: #111;
 }
+
+img {
+  padding-top: 18px;
+  padding-bottom: 0px;
+  
+}
+
+@keyframes floatingbuttom {
+  0%
+  100% {
+    transform: translateY(-3px) rotate(-3deg);
+  }
+  50% {
+    
+  transform: translateY(3px) rotate(3deg);
+  }
+  
+}  
+
+.nevlekX {
+  animation: floatingbuttom 8s ease-in-out infinite;
+}
+
+@keyframes nevlekteste{
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+nevlekA {
+  animation: nevlekteste 1.4s infinite;
+        
